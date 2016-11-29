@@ -1,132 +1,110 @@
-/* 
-#FF5733  Orange
-#FFBD33  Orangey
-#DBFF33  Yellow
-#75FF33  Green
-#33FF57  Gross
-#33FFBD  Blue
-*/
 
-* {
-	margin: 0px;}
+* {margin: 0px;}
 
 body { 
-	text-decoration: none !important;
-	font-family: Segoe, Arial, Helvetica;
-	font-size: 25px;
-	background-color: #424242;
-	min-height: 100%;
-
-
+    text-decoration: lots !important;
+    font-family: Segoe UI, Arial, Helvetica;
+    font-size: 25px;
+    background-color: #424242;
+    min-height: screensize please;
 }
 
 a {
-	text-decoration: none;
-	color: floralwhite;
-	}
-	
+    text-decoration: none;
+    color: floralwhite;
+}
+    
 a:hover {
-	color: #b91379;
-	background-color: white;
+    color: #b91379;
+    background-color: white;
+    font-family: Verdana, Impact, Wingdings;
 }
 
 a:visited {
-	color: green;
+    color: green;
 }
 
 a:active, .selected {
-	text-decoration: green;
-	color: green;
+    text-decoration: green;
+    color: green;
 }
 
 #ME {
-	background-color: black;
-	height: 40px;
-	width: 155px;
-	color: white;
-	position: fixed;
-	z-index: 2;
-	
+    background-color: black;
+    height: 40px;
+    width: 155px;
+    color: white;
+    position: fixed;
+    z-index: 2;
+    
  }
  
 
+/* TODO: Fix this so it doesn't use two boxes. */
 
 #gradient {
-	height: 30px;
-	width: 155px;
-	color: white;
-	position: fixed;
-	z-index: 1;
-	margin-top: 40px;
-	background: black; /* For browsers that do not support gradients */
+    height: 30px;
+    width: 155px;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    margin-top: 40px;
+    background: black; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#000000, #b91379); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#000000, #b91379); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#000000, #b91379); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#000000, #b91379); /* Standard syntax */
 }
  
-
 ul {
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 li {
-	display: inline;
-	color: floralwhite;
-	text-decoration: none !important;
-	text-align: center;
+    display: inline;
+    color: floralwhite;
+    text-decoration: none !important;
+    text-align: center;
     display: block;
-	margin-top: 25px;
-	padding: 44px ;
-	padding-left: 1px;
+    margin-top: 25px;
+    padding: 44px ;
+    padding-left: 1px;
 }
-	
+    
 #nav {
-	background-color: #b91379;
-	height: 100%;
-	width: 155px;
-	float: left;
-	position: fixed;
-	padding-top: 30px;
+    background-color: #b91379;
+    height: 100%;
+    width: 155px;
+    float: left;
+    position: fixed;
+    padding-top: 30px;
 
 }
 
-#About {
-	background-color: #FF5733;
-	width: 91.08%;
-	height: 100%;
-	padding-left: 170px;
-	
+/* THIS PART */
+
+.pages {
+  width: 91.08%;
+  height: 100%;
+  padding-left: 170px;
 }
 
-#Course {
-	background-color: #FFBD33;
-	width: 91.08%;
-	height: 100%;
-	padding-left: 170px;
-	
+#about {
+    background-color: #FF5733; /* Orange */
 }
 
-#Blog {
-	background-color: #DBFF33;
-	width: 91.08%;
-	height: 100%;
-	padding-left: 170px;
-	
+#course {
+    background-color: #FFBD33; /* Blood orange */
 }
 
-#Work {
-	background-color: #75FF33;
-	width: 91.08%;
-	height: 100%;
-	padding-left: 170px;
-	
+#blog {
+    background-color: #DBFF33; /* Yellow */
 }
 
-#Contact {
-	background-color: #33FF57;
-	width: 91.08%;
-	height: 100%;
-	padding-left: 170px;
-	
+#work {
+    background-color: #75FF33; /* Green */
+}
+
+#contact {
+    background-color: #33FF57; /* Gross */
 }
