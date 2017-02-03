@@ -1,110 +1,373 @@
-
-* {margin: 0px;}
-
-body { 
-    text-decoration: lots !important;
-    font-family: Segoe UI, Arial, Helvetica;
-    font-size: 25px;
-    background-color: #424242;
-    min-height: screensize please;
+* {
+	font-family: Century gothic, segoe ui, tahoma, helvetica;
 }
 
-a {
-    text-decoration: none;
-    color: floralwhite;
+body {
+	background-color: #d8d8d8;
+    margin: 0;
+
+	
 }
+
+
+/*                              NAV            */
+
+
+
+
+#naver {
+	/* background-color: #cececa; */
+	background-image: url("background1.png");
+}
+
+#naver a {
+color: black;
+}
+
+
+
+
+/*                              NAV            */
+
+/*                    HOME                      */
+
+#page1 {
+    background-color: #e299ff;
+    height: 45vh;
+}
+
+
+#title {
+ height: 40px;
+ width: 150px;
+ padding-top: 5px;
+}
+
+#links a{
+    color: black;
     
-a:hover {
-    color: #b91379;
-    background-color: white;
-    font-family: Verdana, Impact, Wingdings;
 }
 
-a:visited {
-    color: green;
-}
-
-a:active, .selected {
-    text-decoration: green;
-    color: green;
-}
-
-#ME {
-    background-color: black;
-    height: 40px;
-    width: 155px;
-    color: white;
-    position: fixed;
-    z-index: 2;
-    
- }
- 
-
-/* TODO: Fix this so it doesn't use two boxes. */
-
-#gradient {
-    height: 30px;
-    width: 155px;
-    color: white;
-    position: fixed;
-    z-index: 1;
-    margin-top: 40px;
-    background: black; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#000000, #b91379); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#000000, #b91379); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#000000, #b91379); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#000000, #b91379); /* Standard syntax */
-}
- 
-ul {
-    padding-top: 10px;
-}
-
-li {
-    display: inline;
-    color: floralwhite;
-    text-decoration: none !important;
-    text-align: center;
-    display: block;
-    margin-top: 25px;
-    padding: 44px ;
-    padding-left: 1px;
-}
-    
-#nav {
-    background-color: #b91379;
-    height: 100%;
-    width: 155px;
-    float: left;
-    position: fixed;
-    padding-top: 30px;
-
-}
-
-/* THIS PART */
-
-.pages {
-  width: 91.08%;
-  height: 100vh;
-  padding-left: 170px;
+#closebtn {
+    margin-top: 50px;
 }
 
 #about {
-    background-color: #FF5733; /* Orange */
+    background-color: cyan; 
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
 }
+
+#about a{
+    color: black;
+}
+
+#about a:hover{
+    color: #c1fdff;
+    text-shadow: 1px 1px 10px black;
+}
+
+#about:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
+    text-shadow: 1px 1px 15px black;
+}
+
 
 #course {
-    background-color: #FFBD33; /* Blood orange */
+    background-color: greenyellow;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: black;
+    
 }
 
-#blog {
-    background-color: #DBFF33; /* Yellow */
+#course a {
+    color:black;
 }
+
+#course a:hover{
+    color: #ccffd9;
+    text-shadow: 1px 1px 10px black;
+}
+
+#course:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
+    text-shadow: 1px 1px 15px black;
+}
+
 
 #work {
-    background-color: #75FF33; /* Green */
+    background-color: darkorange;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+        
 }
 
-#contact {
-    background-color: #33FF57; /* Gross */
+#work a{
+    color: black;
+}
+
+#work a:hover{
+    color: #ffeccc;
+    text-shadow: 1px 1px 10px black;
+}
+
+
+#work:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
+    text-shadow: 1px 1px 15px black;
+}
+
+#technicali {
+    text-align: left;
+        background-color: #bbff7c;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#technicals {
+    text-align: left;
+    background-color: #91ffea;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#untechnicali {
+    text-align: left;
+    background-color: #faaaff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#jumbo {
+	background-color: #adadad;
+	margin-top: 2%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#jumbo a{
+    color: orange;
+    text-shadow: 1px 1px 10px black;
+}
+
+
+#jumbo a:hover{
+    color: slateblue;
+    text-shadow: 1px 1px 10px white;
+}
+
+
+#footer {
+    padding-top: 20px;
+    height: 100px;
+    background-color: #adadad;
+    
+}
+
+#footer a{
+    color: black;
+}
+
+#footer a:hover {
+    color:white;
+}
+
+
+#footer img {
+    height: 32px;
+    width: 32px;
+    
+}
+
+#modal4 {
+    text-align: center;
+}
+
+/*          HOME                    */
+
+/*          ABOUT                    */
+
+
+#modal1 {
+    text-align: center;
+}
+
+#modal3 {
+    text-align: center;
+}
+
+/*          ABOUT                    */
+/*          COURSE                    */
+
+#informationtech {
+    background-color: #ff8989;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#creatingsystems {
+    background-color: #ffff89;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#socialmedia {
+    background-color: #8fff89;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#programming {
+    background-color: #89fbff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#websitedev {
+    background-color: #8a9dfc;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#appdev {
+    background-color: #ffa8ec;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#screenshot {
+    height: 400px;
+    width:  390px;
+}
+
+
+
+/*          COURSE                    */
+/*          WORK                    */
+
+
+
+
+
+
+/*          WORK                    */
+/*          CONTACT                    */
+
+
+
+
+
+
+/*          CONTACT                    */
+
+/*          MEDIA QUERIES            */
+
+
+@media screen and (max-width: 800px) {
+
+    #jumbo h3{
+        font-size: 30px;
+    }
+    #jumbo p{
+        font-size: 20px;
+    }
+    #modal1 p{
+        font-size: 15px;
+    }
+    #modal1 li{
+        font-size: 15px;
+    }
+    #modal1 ul{
+        font-size: 15px;
+    }
+    #modal2 p{
+        font-size: 15px;
+    }
+    #modal2 h5{
+        font-size: 20px;
+    }
+    #modal3 p{
+        font-size: 15px;
+    }
+    #modal4 h5{
+        font-size: 15px;
+    }
+    #modal4 h3{
+        font-size: 20px;
+    }
+    #screenshot {
+    height: 300px;
+    width:  290px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+    #jumbo h3{
+        font-size: 25px;
+    }
+    #jumbo p{
+        font-size: 15px;
+    }
+    #modal1 p{
+        font-size: 10px;
+    }
+    #modal1 li{
+        font-size: 10px;
+    }
+    #modal1 ul{
+        font-size: 10px;
+    }
+    #modal2 p{
+        font-size: 10px;
+    }
+    #modal2 h5{
+        font-size: 15px;
+    }
+    #modal3 p{
+        font-size: 10px;
+    }
+    #modal4 h5{
+        font-size: 10px;
+    }
+    #modal4 h3{
+        font-size: 15px;
+    }
+    #screenshot {
+    height: 200px;
+    width:  190px;
+}
+   
 }
