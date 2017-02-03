@@ -140,20 +140,20 @@ body {
     margin-bottom: 20px;
 }
 
-#jumb0 {
+#jumbo {
 	background-color: #adadad;
 	text-align: center;
     	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
-#jumb0 a{
+#jumbo a{
     color: yellow;
     text-shadow: 1px 1px 10px black;
 }
 
 
-#jumb0 a:hover{
+#jumbo a:hover{
     color: slateblue;
     text-shadow: 1px 1px 10px white;
 }
