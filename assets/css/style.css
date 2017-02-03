@@ -3,8 +3,8 @@
 }
 
 body {
-	background-color: #d8d8d8;
-    margin: 0;
+	background-color: url("assets\img\background1.png");
+    	margin: 0;
 
 	
 }
@@ -15,24 +15,12 @@ body {
 
 
 
-#naver {
-	/* background-color: #cececa; */
-	background-image: url("background1.png");
-}
-
-#naver a {
-color: black;
-}
-
-
-
-
 /*                              NAV            */
 
 /*                    HOME                      */
 
 #page1 {
-    background-color: #e299ff;
+    /* background-color: #e299ff; */
     height: 45vh;
 }
 
@@ -154,7 +142,6 @@ color: black;
 
 #jumb0 {
 	background-color: #adadad;
-	padding-bottom: 20px;
 	text-align: center;
     	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
