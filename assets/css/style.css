@@ -53,6 +53,7 @@ main {
 
 #links{
     text-align: center;
+	margin-top: 10%;
 }
 
 #links a{
@@ -339,6 +340,9 @@ main {
     }
     #work {
         border-radius: 0px;
+    }
+    #links  {
+    margin-top:60px;
     }
     
     
