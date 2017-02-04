@@ -6,6 +6,7 @@
 
 body {
     background-color: #494949;
+    /* background-image: url("assets\img\bkgd.png") */
     margin: 0;
     display: flex;
     min-height: 100vh;
@@ -19,7 +20,6 @@ main {
 
 #page1 {
     /* background-color: #e299ff; */
-	background-image: url("backgroundy.png");
     min-height: 85vh;
 }
 
