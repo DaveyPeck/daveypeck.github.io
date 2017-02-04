@@ -5,8 +5,8 @@
 }
 
 body {
-	background-color: #5b5b5b;
-    /* background-image: url(assets/img/bkgd.png); */
+/*	background-color: #5b5b5b; */
+    background-image: url(assets/img/bkgd.png);
     margin: 0;
     display: flex;
     min-height: 100vh;
