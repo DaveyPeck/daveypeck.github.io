@@ -5,8 +5,8 @@
 }
 
 body {
-	/* background-color: #e299ff; */
-    background-image: url(daveypeck.github.io/assets/img/background1.png);
+	background-color: #5b5b5b;
+    /* background-image: url(assets/img/bkgd.png); */
     margin: 0;
     display: flex;
     min-height: 100vh;
