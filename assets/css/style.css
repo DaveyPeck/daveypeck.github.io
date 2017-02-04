@@ -34,20 +34,29 @@ main {
 
 /*                    HOME                      */
 
-#about2{
+#about{
+    border-style: solid;
+    border color: cyan; 
     color: cyan;
-    font-size: 15px;
-    font-weight: bold;
+    border-width: 5px;
 }
-#course2{
+#course{
+    border-style: solid;
+    border color: greenyellow; 
     color: greenyellow;
-    font-size: 15px;
-    font-weight: bold;
+    border-width: 5px;
 }
-#work2{
-    color: #f4ff5b;
-    font-size: 15px;
-    font-weight: bold;
+#work{
+    border-style: solid;
+    border color: darkorange; 
+    color: darkyellow;
+    border-width: 5px;
+}
+#contact {
+    border-style: solid;
+    border color: #f44274; 
+    color: #f44274;
+    border-width: 5px;
 }
 
 
@@ -91,7 +100,7 @@ main {
 /*           ABOUT                    */
 
 #about {
-    background-color: rgba(0, 255, 255, 0.4); 
+    /*background-color: rgba(0, 255, 255, 0.4); */
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -127,7 +136,7 @@ main {
 /*          COURSE                    */
 
 #course {
-    background-color: rgba(173, 255, 47, 0.4);
+    /*background-color: rgba(173, 255, 47, 0.4);*/
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -162,7 +171,7 @@ main {
 /*           WORK                     */
 
 #work {
-    background-color: rgba(255, 140, 0, 0.4);
+    /*background-color: rgba(255, 140, 0, 0.4);*/
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%; 
@@ -196,7 +205,7 @@ main {
 /*           CONTACT                 */
 
 #contact {
-    background-color: rgba(255, 69, 0, 0.4);
+    /*background-color: rgba(255, 69, 0, 0.4);*/
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
