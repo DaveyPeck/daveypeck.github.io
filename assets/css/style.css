@@ -5,7 +5,8 @@
 }
 
 body {
-	background-color: #e299ff;
+	/* background-color: #e299ff; */
+    background-image: url(images/bkgd.png);
     margin: 0;
     display: flex;
     min-height: 100vh;
@@ -25,13 +26,30 @@ main {
 
 /*                    HOME                      */
 
+#about2{
+    color: cyan;
+    font-size: 15px;
+    font-weight: bold;
+}
+#course2{
+    color: greenyellow;
+    font-size: 15px;
+    font-weight: bold;
+}
+#work2{
+    color: #f4ff5b;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
 /*           JUMBO                    */
 
 #jumb0 {
-	background-color: #adadad;
+	/* background-color: #adadad; */
+    color: azure;
 	padding-bottom: 20px;
 	text-align: center;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #jumb0 a{
@@ -41,8 +59,8 @@ main {
 
 
 #jumb0 a:hover{
-    color: slateblue;
-    text-shadow: 1px 1px 10px white;
+    color: #3284ff;
+    text-shadow: 0px 0px 1px white;
 }
 
 
@@ -53,7 +71,7 @@ main {
 
 #links{
     text-align: center;
-	margin-top: 10%;
+    margin-top: 10%;
 }
 
 #links a{
@@ -65,14 +83,24 @@ main {
 /*           ABOUT                    */
 
 #about {
-    background-color: cyan; 
+    background-color: rgba(0, 255, 255, 0.4); 
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-bottom: 10px;
+    border-radius: 100px;
     -webkit-box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
     box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
     
+}
+
+#about:hover {
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    color: white;
+    text-shadow: 1px 1px 15px black;
 }
 
 #about a{
@@ -84,27 +112,30 @@ main {
     text-shadow: 1px 1px 10px black;
 }
 
-#about:hover {
-    -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
-    box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
-    color: white;
-    text-shadow: 1px 1px 15px black;
-}
+
 
 /*           ABOUT                    */
 
 /*          COURSE                    */
 
 #course {
-    background-color: greenyellow;
+    background-color: rgba(173, 255, 47, 0.4);
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    color: black;
+    margin-bottom: 10px;
+    border-radius: 100px;
     -webkit-box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
     box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+}
+
+#course:hover {
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    color: white;
+    text-shadow: 1px 1px 15px black;
 }
 
 #course a {
@@ -116,26 +147,30 @@ main {
     text-shadow: 1px 1px 10px black;
 }
 
-#course:hover {
-    -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
-    box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
-    color: white;
-    text-shadow: 1px 1px 15px black;
-}
+
 
 /*          COURSE                    */
 
 /*           WORK                     */
 
 #work {
-    background-color: darkorange;
+    background-color: rgba(255, 140, 0, 0.4);
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%; 
+    margin-bottom: 10px;
+    border-radius: 100px;
     -webkit-box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
     box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+}
+
+#work:hover {
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    color: white;
+    text-shadow: 1px 1px 15px black;
 }
 
 #work a{
@@ -148,7 +183,23 @@ main {
 }
 
 
-#work:hover {
+/*           WORK                    */
+
+/*           CONTACT                 */
+
+#contact {
+    background-color: rgba(255, 69, 0, 0.4);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+}
+
+#contact:hover {
     -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
     box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
@@ -156,9 +207,18 @@ main {
     text-shadow: 1px 1px 15px black;
 }
 
-/*           WORK                    */
+#contact a{
+    color: black;
+}
+
+#contact a:hover{
+    color: #ffeccc;
+    text-shadow: 1px 1px 10px black;
+}
 
 
+
+/*           CONTACT                 */
 
 /*          FOOTER                    */
 
@@ -189,6 +249,16 @@ main {
 
 #modal1 {
     text-align: center;
+}
+
+#modal1 a{
+    color: black;
+    text-shadow: 1px 1px 15px gray; 
+}
+
+#modal1 a:hover{
+    color: white;
+    text-shadow: 1px 1px 25px black; 
 }
 
 #modal3 {
@@ -287,6 +357,15 @@ main {
     margin-bottom: 20px;
 }
 
+#workexp {
+    text-align: left;
+    background-color: #ffb472;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
 /*          MODALCONTENT             */
 
 /*          MEDIA QUERIES            */
@@ -329,9 +408,11 @@ main {
     width:  290px;
     }
 
+    
 }
 
 @media screen and (max-width: 600px) {
+
     #about {
         border-radius: 0px;
     }
@@ -341,7 +422,12 @@ main {
     #work {
         border-radius: 0px;
     }
+    #contact {
+        border-radius: 0px;
+    }
+    
     #links  {
+    text-align: center;
     margin-top:60px;
     }
     
@@ -351,7 +437,6 @@ main {
 }
 
 @media screen and (max-width: 400px) {
-
 
     #jumb0 h3{
         font-size: 25px;
@@ -386,6 +471,7 @@ main {
     #screenshot {
     height: 200px;
     width:  190px;
-}
+    }
+    
    
 }
