@@ -6,7 +6,7 @@
 
 body {
 /*	background-color: #494949; */
-    background-image: url("assets\img\bkgd.png");
+    background-image: url("assets\img\backgroundy.png");
     margin: 0;
     display: flex;
     min-height: 100vh;
@@ -220,7 +220,7 @@ main {
 
 /*           CONTACT                 */
 
-/*          FOOTER                    */
+/*          FOOTER                   
 
 #footer {
     background-color: #adadad;
@@ -243,7 +243,7 @@ main {
     
 }
 
-/*          FOOTER                    */
+         FOOTER                    */
 
 /*          MODAL                    */
 
