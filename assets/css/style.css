@@ -4,8 +4,16 @@
 	font-family: Century gothic, segoe ui, tahoma, helvetica;
 }
 
+html { 
+  background: url(assets\img\bkgd.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-    background-color: #494949;
+    /* background-color: #494949; */
     /* background-image: url("assets\img\bkgd.png") */
     margin: 0;
     display: flex;
