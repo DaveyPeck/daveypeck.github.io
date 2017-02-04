@@ -20,6 +20,7 @@ main {
 
 #page1 {
     /* background-color: #e299ff; */
+	background-image: url("backgroundy.png");
     min-height: 85vh;
 }
 
