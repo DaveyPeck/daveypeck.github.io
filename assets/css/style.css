@@ -6,7 +6,7 @@
 
 body {
 /*	background-color: #494949; */
-    background-image: url("assets\img\backgroundy.png");
+    background-image: url("\img\backgroundy.png");
     margin: 0;
     display: flex;
     min-height: 100vh;
