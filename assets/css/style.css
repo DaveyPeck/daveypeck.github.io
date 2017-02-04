@@ -6,7 +6,7 @@
 
 body {
 	/* background-color: #e299ff; */
-    background-image: url(assets\img\bkgd.png);
+    background-image: url(assets/img/bkgd.png);
     margin: 0;
     display: flex;
     min-height: 100vh;
