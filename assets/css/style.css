@@ -33,33 +33,6 @@ main {
 
 
 /*                    HOME                      */
-
-#about{
-    border-style: solid;
-    border color: cyan; 
-    color: cyan;
-    border-width: 5px;
-}
-#course{
-    border-style: solid;
-    border color: greenyellow; 
-    color: greenyellow;
-    border-width: 5px;
-}
-#work{
-    border-style: solid;
-    border color: darkorange; 
-    color: darkyellow;
-    border-width: 5px;
-}
-#contact {
-    border-style: solid;
-    border color: #f44274; 
-    color: #f44274;
-    border-width: 5px;
-}
-
-
 /*           JUMBO                    */
 
 #jumb0 {
@@ -98,9 +71,9 @@ main {
 /*           BUTTONS                  */
 
 /*           ABOUT                    */
-
+/*
 #about {
-    /*background-color: rgba(0, 255, 255, 0.4); */
+    background-color: rgba(0, 255, 255, 0.4); 
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -128,15 +101,77 @@ main {
     color: #c1fdff;
     text-shadow: 1px 1px 10px black;
 }
+*/
+#about {
+    border-style: solid;
+    border color: cyan; 
+    color:#38edea;
+    border-width: 5px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+    
+}
 
+#about:hover {
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    color: white;
+    text-shadow: 1px 1px 15px black;
+}
+
+#about a{
+    color: black;
+    border color: cyan; 
+}
+
+#about a:hover{
+    color: cyan;
+    text-shadow: 1px 1px 10px black;
+}
 
 
 /*           ABOUT                    */
 
 /*          COURSE                    */
-
+/*
 #course {
-    /*background-color: rgba(173, 255, 47, 0.4);*/
+    background-color: rgba(173, 255, 47, 0.4);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+}
+#course:hover {
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    color: white;
+    text-shadow: 1px 1px 15px black;
+}
+#course a {
+    color:black;
+}
+#course a:hover{
+    color: #ccffd9;
+    text-shadow: 1px 1px 10px black;
+}
+*/
+#course {
+    border-style: solid;
+    border color: #3eed38; 
+    color:greenyellow;
+    border-width: 5px;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -157,6 +192,7 @@ main {
 
 #course a {
     color:black;
+    border color: greenyellow; 
 }
 
 #course a:hover{
@@ -164,14 +200,41 @@ main {
     text-shadow: 1px 1px 10px black;
 }
 
-
-
 /*          COURSE                    */
 
 /*           WORK                     */
-
+/*
 #work {
-    /*background-color: rgba(255, 140, 0, 0.4);*/
+    background-color: rgba(255, 140, 0, 0.4);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    margin-bottom: 10px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+}
+#work:hover {
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    color: white;
+    text-shadow: 1px 1px 15px black;
+}
+#work a{
+    color: black;
+}
+#work a:hover{
+    color: #ffeccc;
+    text-shadow: 1px 1px 10px black;
+}
+*/
+#work {
+    border-style: solid;
+    border color: darkorange; 
+    color: darkorange;
+    border-width: 5px;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%; 
@@ -191,11 +254,12 @@ main {
 }
 
 #work a{
-    color: black;
+    color: darkorange;
+    border color: darkorange; 
 }
 
 #work a:hover{
-    color: #ffeccc;
+    color: darkorange;
     text-shadow: 1px 1px 10px black;
 }
 
@@ -203,9 +267,39 @@ main {
 /*           WORK                    */
 
 /*           CONTACT                 */
+/*
+#contact {
+    background-color: rgba(255, 69, 0, 0.4);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24);
+}
+#contact:hover {
+    -webkit-box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 12px 16px 0px rgba(255,255,255,1);
+    color: white;
+    text-shadow: 1px 1px 15px black;
+}
+#contact a{
+    color: black;
+}
+#contact a:hover{
+    color: #ffeccc;
+    text-shadow: 1px 1px 10px black;
+}
+*/
 
 #contact {
-    /*background-color: rgba(255, 69, 0, 0.4);*/
+    border-style: solid;
+    border color: red; 
+    color: #f44274;
+    border-width: 5px;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -225,14 +319,14 @@ main {
 }
 
 #contact a{
-    color: black;
+    color: red;
+    border color: red; 
 }
 
 #contact a:hover{
-    color: #ffeccc;
+    color: red;
     text-shadow: 1px 1px 10px black;
 }
-
 
 
 /*           CONTACT                 */
