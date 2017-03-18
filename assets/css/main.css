@@ -98,38 +98,32 @@ html {
 }
 
 #infor {
-    color: #ffcece;
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 3px #ffcece;
     margin-top: 5px;
 }
 
 #creat {
-    color: #fffd93;
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 3px #fffd93;
     margin-top: 5px;
 }
 
 #socm {
-    color: #93ff9f;
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 3px #93ff9f;
     margin-top: 5px;
 }
 
 #progr {
-    color: #93e9ff;
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 3px #93e9ff;
     margin-top: 15px;
 }
 
 #webd {
-    color: #ffcefe;
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 3px #ffcefe;
     margin-top: 15px;
 }
 
 #moba {
-    color: #ffcc93;
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 3px #ffcc93;
     margin-top: 15px;
 }
 
