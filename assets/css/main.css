@@ -76,12 +76,14 @@ html {
 #techi {
     border-bottom: thick solid;
     border-color: #7da72b;
+    margin-right: 5px;
     
 }
 
 #techs {
     border-bottom: thick solid;
     border-color: #ea999d;
+    margin-right: 5px;
 }
 
 #untech {
@@ -127,6 +129,9 @@ html {
     margin-top: 15px;
 }
 
+ #project {
+     margin-right: 5px;
+}
 
 #box1 {
     background-color: rgba(253, 255, 183,0.3);
