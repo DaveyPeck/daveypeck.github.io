@@ -178,3 +178,9 @@ html {
 #foot a{
     color: lemonchiffon;
 }
+
+@media screen and (max-width: 540px) {
+    
+    html {
+    background-position: left;
+}
