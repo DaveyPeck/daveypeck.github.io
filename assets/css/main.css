@@ -183,4 +183,5 @@ html {
     
 html {
     background: url(../img/backgroundmini.jpg) no-repeat fixed center ;
+    background-size: cover;
 }
