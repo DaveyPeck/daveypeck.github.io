@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" media="screen, projection">    
+			<title> David Peck </title>
+			<link rel="shortcut icon" type="images/png" href="assets\img\logo6.png" />    
+			<link rel="stylesheet" href="assets\css\main.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!-- Scroller -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <script>
+$(document).ready(function(){
+// Add smooth scrolling to all links
+$("a").on('click', function(event) {
+// Make sure this.hash has a value before overriding default behavior
+if (this.hash !== "") {
+/// Prevent default anchor click behavior
+ event.preventDefault();
+ // Store hash
+ var hash = this.hash;
+ // Using jQuery's animate() method to add smooth page scroll
+ // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+ $('html, body').animate({
+scrollTop: $(hash).offset().top
+ }, 800, function(){
+// Add hash (#) to URL when done scrolling (default click behavior)
+window.location.hash = hash;
+            });
+        } // End if
+    });
+});
+        </script>
+        <!-- Scroller -->
+        
+    </head>
+
+    <body>
+	
+
+<div class="container">
+<div id="prebody" class="row">
+    <div class="col s12">
+        <h3>WELCOME TO MY PORTFOLIO </h3>
+        <h5> My name is David Peck and I am currently an IT Student at <a href="https://www.ccn.ac.uk" target="_blank">Norwich City College</a></h5>
+        
+          
+    </div>    
+</div> 
+</div>
+
+<div class="col s12" id="arrow">
+<a href="#about"><img src="assets/img/arrow2.png"></a>
+</div>
+<!-- Arrow -->
+
+<div id="mainbody" class="container">
+ 
+    
+<!-- ABOUT -->    
+<div id="about" class="row">
+        <div class="col s12">
+            <h3>ABOUT</h3>
+
+<div class="row">
+    <div class="col s12 m4">
+        <h5 id="techi"> Technical Interests </h5>
+        <ul>
+            <li> Website Development </li>
+            <li> Great understanding of Windows </li>
+            <li> Looking forward to Programming a Raspberry Pi </li>
+            </br>
+            <img src="assets/img/raspi.png">
+        </ul>
+    </div>
+    <div class="col s12 m4">
+        <h5 id="techs"> Technical Skills </h5>
+        <ul>
+            <li> HTML5 &amp; CSS3 </li>
+            <li> Frameworks, currently enjoying Materialize</li>
+            <li> Currently Learning Javascript </li>
+            </br>
+            <img src="assets/img/material.png">
+        </ul>
+    </div>
+    <div class="col s12 m4">
+        <h5 id="untech"> General Interests </h5>
+        <ul>
+            <li> Climbing/Bouldering </li>
+            <li> Console Gaming </li>
+            <li> Music </li>
+            </br>
+            <img src="assets/img/ifsc.png">
+        </ul>
+    </div>
+    
+</div>
+
+
+        </div>
+<div class="row">
+<div class="col s12" id="next">
+<a href="#course">
+<i class="medium material-icons">play_for_work</i>    
+</a>
+</div>
+      </div>
+      
+      
+</div>
+<!-- ABOUT -->
+    
+            </br><hr> 
+        
+<!-- COURSE -->
+<div id="course" class="row">
+    <h3> COURSE </h3>
+    <p> I am undertaking a BTEC level 3 IT course at Norwich City College </p>
+    <p> These are the main modules that I am currently learning </p>
+    </br>
+<ul>
+            <div id="infor" class="col s12 m4">
+            <i class="small material-icons">settings_input_component</i>
+            <li> Information </li>
+            <li> Technology </li>
+            </div>
+        <div id="creat" class="col s12 m4">
+        <i class="small material-icons">assessment</i> 
+        <li>Creating Systems To</li>
+        <li>Manage Information</li>
+        </div>
+            <div id="socm" class="col s12 m4">
+             <i class="small material-icons">perm_identity</i> 
+             <li> Social Media </li>
+             <li> In Business </li>
+            </div>
+    
+        <div id="progr" class="col s12 m4">
+        <i class="small material-icons">settings_ethernet</i>
+        <li> Programming</li>
+        </div>
+            <div id="webd" class="col s12 m4">
+            <i class="small material-icons">web</i> 
+            <li> Website Development</li>
+            </div>
+        <div id="moba" class="col s12 m4">
+        <i class="small material-icons">stay_current_portrait</i> 
+        <li> Mobile App Development</li>
+        </div>
+</ul> 
+
+<div class="col s12" id="next">
+<a href="#project">
+<i class="medium material-icons">play_for_work</i>    
+</a>
+</div>
+
+</div>
+
+<!-- COURSE -->
+        
+            </br><hr>
+      
+<!-- PROJECT -->
+
+<div id="project" class="row">
+        <div class="col s12">
+        <h3> PROJECT </h3>
+        <p>I am currently overseeing and taking part in a project which involves creating a web app of Digital Apprenticeships for Norwich City College</p>
+        <p> I am both managing and helping to create this site </p>
+        
+  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div id="box1" class="collapsible-header">Home Page</div>
+      <div class="collapsible-body"><span><img id="screenshot" class="materialboxed" src="assets/img/Home.png"></span></div>
+    </li>
+    <li>
+      <div id="box2" class="collapsible-header">Results Page</div>
+      <div class="collapsible-body"><span><img id="screenshot" class="materialboxed" src="assets/img/Result.png"></span></div>
+    </li>
+    <li>
+      <div id="box3" class="collapsible-header">Business Page</div>
+      <div class="collapsible-body"><span><img id="screenshot" class="materialboxed" src="assets/img/BusinessPage.png"></span></div>
+    </li>
+    <li>
+      <div id="box4" class="collapsible-header">Register Page</div>
+      <div class="collapsible-body"><span><img id="screenshot" class="materialboxed" src="assets/img/RegisterMobile.png"></span></div>
+    </li>
+    <li>
+      <div id="box5" class="collapsible-header">Login Page</div>
+      <div class="collapsible-body"><span><img id="screenshot" class="materialboxed" src="assets/img/LoginMobile.png"></span></div>
+    </li>
+  </ul>      
+
+        </div>
+    
+<div class="col s12" id="next">
+<a href="#contact">
+<i class="medium material-icons">play_for_work</i>    
+</a>
+</div>
+    
+    
+    </div>
+
+<!-- PROJECT -->
+      
+            </br><hr>
+
+<!-- CONTACT -->
+
+    <div id="contact" class="row">
+        <div class="col s12">
+
+        <h3>CONTACT</h3>
+            
+        <p> Get in touch at </p>
+            
+        <h5> davey.peck@gmail.com </h5>
+            
+        <p> Or connect with me on linkedin </p>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="david-peck-99437319"><a class="LI-simple-link" href="https://uk.linkedin.com/in/david-peck-99437319?trk=profile-badge" target="_blank">David Peck</a></div>
+
+        </div> 
+
+            <div class="col s12" id="next">
+            <a href="#about">
+            <i class="medium material-icons">navigation</i>    
+            </a>
+            </div>
+
+    </div>
+
+</div>
+
+<div id="foot" class="row">
+<div class="col s12">
+    <p> background courtesy of <a href="https://unsplash.com/" target="_blank">unsplash</a></p>
+    
+</div>
+</div>
+	
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+      <script type="text/javascript" src="materialize\js\materialize.js"></script>
+	  <script type="text/javascript" src="materialize\js\init.js"> </script>
+
+    <!-- Linkedin -->
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <!-- Linkedin -->
+        
+    <script>
+          $(".button-collapse").sideNav();    
+    </script>
+        
+    </body>
+  </html>
