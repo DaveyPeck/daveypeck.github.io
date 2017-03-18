@@ -1,0 +1,186 @@
+* {
+    font-family: segoe ui, century gothic;
+}
+
+html {
+    background: url(../img/background1.jpg) no-repeat fixed center ;
+    background-size: cover;
+}
+
+#prebody {
+    margin-top: 40vh;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px gray;
+}
+
+#prebody a {
+    color: ghostwhite;
+    text-shadow: 0px 0px 5px black;
+}
+
+#prebody a:hover {
+    color: black;
+    text-shadow: 0px 0px 5px lightcoral;
+}
+
+#arrow {
+    text-align: center;
+}
+
+#arrow img {
+    height: 30px;
+    width: 60px;
+    text-align: center;   
+}
+
+#next {
+    margin-top: 50px;
+}
+
+#next a {
+    font-size: 25px;
+    color: ghostwhite;
+    text-shadow: 0px 0px 5px black;
+}
+
+#mainbody {
+    margin-top: 50px;
+    background-color: #c9c9c9;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: .9;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#mainbody h3{
+    text-align: center;
+    text-shadow: 0px 0px 5px gray;
+}
+
+#about img{
+    height: 80px;
+    width: auto;
+    margin-top: 20px;
+}
+
+
+
+#about li {
+    text-align: center;
+}
+
+#techi {
+    border-bottom: thick solid;
+    border-color: #7da72b;
+    
+}
+
+#techs {
+    border-bottom: thick solid;
+    border-color: #ea999d;
+}
+
+#untech {
+    border-bottom: thick solid;
+    border-color: #0a87b9;
+    margin-right: 5px;
+}
+
+#course li {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+#infor {
+    color: #ffcece;
+    text-shadow: 0px 0px 3px black;
+    margin-top: 5px;
+}
+
+#creat {
+    color: #fffd93;
+    text-shadow: 0px 0px 3px black;
+    margin-top: 5px;
+}
+
+#socm {
+    color: #93ff9f;
+    text-shadow: 0px 0px 3px black;
+    margin-top: 5px;
+}
+
+#progr {
+    color: #93e9ff;
+    text-shadow: 0px 0px 3px black;
+    margin-top: 15px;
+}
+
+#webd {
+    color: #ffcefe;
+    text-shadow: 0px 0px 3px black;
+    margin-top: 15px;
+}
+
+#moba {
+    color: #ffcc93;
+    text-shadow: 0px 0px 3px black;
+    margin-top: 15px;
+}
+
+
+#box1 {
+    background-color: rgba(253, 255, 183,0.3);
+    font-family: century gothic;
+    font-weight: bold;
+}
+
+#box2 {
+    background-color: rgba(208, 255, 183,0.3);
+    font-family: century gothic;
+    font-weight: bold;
+}
+
+#box3 {
+    background-color: rgba(255, 221, 183,0.3);
+    font-family: century gothic;
+    font-weight: bold;
+}
+
+#box4 {
+    background-color: rgba(183, 255, 244,0.3);
+    font-family: century gothic;
+    font-weight: bold;
+}
+
+#box5 {
+    background-color: rgba(255, 183, 239,0.3);
+    font-family: century gothic;
+    font-weight: bold;
+}
+
+#screenshot {
+    width: 250px;
+    height: auto;
+    display: inline;
+    margin-bottom: 15px;
+}
+
+#contact h5 {
+    text-decoration: underline;
+    color: black;
+}
+
+#foot {
+    color: ghostwhite;
+    text-align: center;
+}
+
+#foot a{
+    color: lemonchiffon;
+}
