@@ -181,6 +181,6 @@ html {
 
 @media screen and (max-width: 540px) {
     
-    html {
-    background-position: left;
+html {
+    background: url(assets/img/backgroundmini.jpg) no-repeat fixed center ;
 }
