@@ -8,7 +8,7 @@ html {
     background-size: cover;
 }
 
-#prebody {
+#prebody2 {
     margin-top: 40vh;
     height: 50vh;
     text-align: center;
@@ -17,7 +17,7 @@ html {
     font-family: Source Sans Pro; !important
 }
 
-#prebody h3 {
+#prebody2 h3 {
     font-size: 5em;   
     font-family: Source Sans Pro; !important
 }
