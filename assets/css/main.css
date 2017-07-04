@@ -8,18 +8,16 @@ html {
     background-size: cover;
 }
 
-#prebody2 {
+#prebody {
     margin-top: 40vh;
     height: 50vh;
     text-align: center;
     color: white;
     text-shadow: 2px 2px gray;
-    font-family: Source Sans Pro; !important
 }
 
-#prebody2 h3 {
+#prebody h3 {
     font-size: 5em;   
-    font-family: Source Sans Pro; !important
 }
 
 #prebody a {
@@ -30,6 +28,10 @@ html {
 #prebody a:hover {
     color: black;
     text-shadow: 0px 0px 5px lightcoral;
+}
+
+#prebody2 {
+    font-family: Source Sans Pro;
 }
 
 #arrow {
