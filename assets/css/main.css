@@ -199,6 +199,7 @@ html {
     html {
     background: url(../img/backgrindmini.jpg) no-repeat fixed center ;
     background-size: cover;
-    min-width: 100%;
+    width: auto;
+    min-height: 100%;
     }
 
