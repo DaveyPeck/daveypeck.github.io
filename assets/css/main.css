@@ -194,12 +194,19 @@ html {
 }
 
 /*
+
+Works on Emulators but not on my Galaxy S5neo,
+Displays as a very pixelated small version,
+Seems to only be the top left blue bit,
+Probably browser incompatibility or something?
+But probably not needed, so commented out. <3
+
 @media screen and (max-width: 540px) {
     
-
     html {
     background: url(../img/backgrindmini2.jpg) no-repeat fixed center ;
     background-size: cover;
     width: auto;
     }
+
 */
