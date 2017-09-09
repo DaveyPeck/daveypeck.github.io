@@ -56,10 +56,8 @@ html {
 
 #mainbody {
     margin-top: 50px;
-    background-color: #c9c9c9;
-/*
+/*  background-color: #c9c9c9;  */
     background-color: rgba(255, 255, 255, 0.8);
-*/
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     opacity: .9;
     padding-bottom: 10px;
