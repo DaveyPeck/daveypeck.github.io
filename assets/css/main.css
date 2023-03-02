@@ -1,214 +1,133 @@
-body {
-    font-family: Milonga, Source Sans Pro, Segoe ui, century gothic;
-    /* Milonga, Source Sans Pro,Averia Gruesa Libre, Baloo Thambi, quicksand, */ 
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 html {
-    background: url(../img/backgrind4.jpg) no-repeat fixed center ;
-    background-size: cover;
+  position: relative;
+  min-height: 100%;
 }
 
-#prebody {
-    margin-top: 40vh;
-    height: 50vh;
+body {
+    padding-top: 3.5rem;
+    margin-bottom: 60px;
+    background-color: #3c3c3c;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* CUSTOM CSS */
+
+.smaller-text{
+    font-size: 10px;
+}
+
+.vertical-container {
+    margin-top: 15%;
+}
+
+.wip-banner {
     text-align: center;
     color: white;
-    text-shadow: 0px 0px 5px white;
+    font-family: 'Fira Code', monospace;
+    text-shadow: 0 0 3px white;
 }
 
-#prebody h3 {
-    font-size: 5em;   
+.happy-puppy-left {
+    left: -30%;
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    z-index: 1;
+    background-image: url("../images/pupp.png");
+    background-size: contain;
+    transform: scaleX(-1);
+    animation: moveright 4s linear 1s infinite;
 }
 
-#prebody a {
-    color: white;
-    text-shadow: 0px 0px 5px white;
+.happy-puppy-right {
+    right: 100%;
+    top: 15%;
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    z-index: 1;
+    background-image: url("../images/pupp.png");
+    background-size: contain;
+    animation: moveleft 6s linear 1s infinite;
 }
 
-#prebody a:hover {
-    color: ghostwhite;
-    text-shadow: 0px 0px 5px lightcoral;
+.happy-puppy-circleclock {
+    left: -10%;
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    z-index: -1;
+    background-image: url("../images/pupp.png");
+    background-size: contain;
+    animation: circleclock 6s linear 1s infinite;
 }
 
-#prebody2 {
-    font-family: Source Sans Pro;
+.happy-puppy-circlewise {
+    right: 10%;
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    z-index: -1;
+    background-image: url("../images/pupp.png");
+    background-size: contain;
+    animation: circlewise 6s linear 1s infinite;
 }
 
-#arrow {
-    text-align: center;
-}
-
-#arrow img {
-    height: 30px;
-    width: 60px;
-    text-align: center;   
-}
-
-#next {
-    margin-top: 50px;
-}
-
-#next a {
-    font-size: 25px;
-    color: ghostwhite;
-    text-shadow: 0px 0px 5px black;
-}
-
-#mainbody {
-    margin-top: 50px;
-/*  background-color: #c9c9c9;  */
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    opacity: .9;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-#mainbody h3{
-    text-align: center;
-    text-shadow: 0px 0px 5px gray;
-}
-
-#about img{
-    height: 80px;
-    width: auto;
-    margin-top: 20px;
-}
-
-
-
-#about li {
-    text-align: center;
-}
-
-#techi {
-    border-bottom: thick solid;
-    border-color: #7da72b;
-    margin-right: 5px;
-    
-}
-
-#techs {
-    border-bottom: thick solid;
-    border-color: #ea999d;
-    margin-right: 5px;
-}
-
-#untech {
-    border-bottom: thick solid;
-    border-color: #0a87b9;
-    margin-right: 5px;
-}
-
-#course li {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 15px;
-    margin-right: 5px;
-}
-
-#infor {
-    text-shadow: 0px 0px 3px #ffcece;
-    margin-top: 5px;
-}
-
-#creat {
-    text-shadow: 0px 0px 3px #fffd93;
-    margin-top: 5px;
-}
-
-#socm {
-    text-shadow: 0px 0px 3px #93ff9f;
-    margin-top: 5px;
-}
-
-#progr {
-    text-shadow: 0px 0px 3px #93e9ff;
-    margin-top: 15px;
-}
-
-#webd {
-    text-shadow: 0px 0px 3px #ffcefe;
-    margin-top: 15px;
-}
-
-#moba {
-    text-shadow: 0px 0px 3px #ffcc93;
-    margin-top: 15px;
-}
-
- #project {
-     margin-right: 5px;
-}
-
-#box1 {
-    background-color: rgba(253, 255, 183,0.3);
-    font-family: century gothic;
-    font-weight: bold;
-}
-
-#box2 {
-    background-color: rgba(208, 255, 183,0.3);
-    font-family: century gothic;
-    font-weight: bold;
-}
-
-#box3 {
-    background-color: rgba(255, 221, 183,0.3);
-    font-family: century gothic;
-    font-weight: bold;
-}
-
-#box4 {
-    background-color: rgba(183, 255, 244,0.3);
-    font-family: century gothic;
-    font-weight: bold;
-}
-
-#box5 {
-    background-color: rgba(255, 183, 239,0.3);
-    font-family: century gothic;
-    font-weight: bold;
-}
-
-#screenshot {
-    width: 250px;
-    height: auto;
-    display: inline;
-    margin-bottom: 15px;
-}
-
-#contact h5 {
-    text-decoration: underline;
-    color: black;
-}
-
-#foot {
-    color: ghostwhite;
-    text-align: center;
-}
-
-#foot a{
-    color: lemonchiffon;
-}
-
-/*
-
-Works on Emulators but not on my Galaxy S5neo,
-Displays as a very pixelated small version,
-Seems to only be the top left blue bit,
-Linkedin thing also doesn't load,
-Probably browser incompatibility or something?
-But probably not needed, so commented out. <3
-
-@media screen and (max-width: 540px) {
-    
-    html {
-    background: url(../img/backgrindmini2.jpg) no-repeat fixed center ;
-    background-size: cover;
-    width: auto;
+@keyframes moveright {
+    from {
+        left: -30%;
     }
 
-*/
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes moveleft {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes circleclock {
+    0% {
+        transform: rotate(0deg) translate(-40em) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(-40em) rotate(-360deg);
+    }
+}
+
+@keyframes circlewise {
+    0% {
+        transform: rotate(360deg) translate(-50em) rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0deg) translate(-50em) rotate(0deg);
+    }
+}
+
+
+
+/* CUSTOM CSS */
