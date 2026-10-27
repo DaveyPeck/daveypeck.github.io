@@ -1,34 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Portfolio Website">
-        <meta name="author" content="Davey Peck">
-        <link rel="icon" href="assets/images/icon3.ico">
-        <title>Work in progress</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
-        <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/main.css" asp-append-version="true" />
-    </head>
-    <body>
-        <div class="container">
-            <main role="main" class="pb-3">
-                <div class="container vertical-container">
-                    <div class=wip-banner>
-                        <h2>Hi, I'm currently working on this</h2>
-                        <p class="smaller-text">very hard</p>
-                        <p>.net developer based in norwich</p>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="happy-puppy-right"></div>
-                    <div class="happy-puppy-left"></div>
-                    <div class="happy-puppy-circleclock"></div>
-                    <div class="happy-puppy-circlewise"></div>
-                </div>
-            </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket To Prod</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <button class="theme-toggle" id="theme-toggle" type="button">[ DARK MODE ]</button>
+    <div class="app">
+      <div class="viewport" id="viewport">
+        <pre class="screen" id="screen"></pre>
+      </div>
+      <div class="status">
+        <div>
+          <h4>Controls:</h4>
+          <span id="status-controls">WASD Move | E Interact</span>
         </div>
-    </body>
+        <div>
+          <h4>Objective:</h4>
+          <span id="status-objective"></span>
+        </div>
+        <div>
+          <h4>Current Phase:</h4>
+          <span id="status-phase"></span>
+        </div>
+        <div class="dialogue">
+          <h4>Dialogue:</h4>
+          <span id="status-dialogue"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Plain scripts (no modules) so the game works straight from file:// -->
+    <script src="src/game/map.js"></script>
+    <script src="src/game/puzzle.js"></script>
+    <script src="src/game/platformer.js"></script>
+    <script src="src/game/battle.js"></script>
+    <script src="src/game/lead.js"></script>
+    <script src="src/game/qa.js"></script>
+    <script src="src/game/po.js"></script>
+    <script src="src/game/ba.js"></script>
+    <script src="src/game/scenes.js"></script>
+    <script src="src/game/state.js"></script>
+    <script src="src/render.js"></script>
+    <script src="src/main.js"></script>
+  </body>
 </html>
