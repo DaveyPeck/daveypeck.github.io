@@ -1,0 +1,159 @@
+/* Light theme by default; body.dark switches to dark */
+:root {
+  --bg: #ffffff;
+  --fg: #000000;
+  --muted: #444444;
+  --error: #e00020;
+  --border: #3949ab;
+  --wall: #8a8a8a;
+  --slot: #a0a0a0;
+  --ok: #2e7d32;
+  --token: #b26a00;
+  --token-bg: #fff1d6;
+  --hl: #fff3b0;
+  --ba: #1565c0;
+  --po: #8e24aa;
+  --qa: #e65100;
+  --lead: #00838f;
+  --dev: #2e7d32;
+  --contractor: #ad1457;
+  --dialogue-bg: #eef1ff;
+}
+
+body.dark {
+  --bg: #000000;
+  --fg: #ffffff;
+  --muted: #bbbbbb;
+  --error: #ff3344;
+  --border: #7986cb;
+  --wall: #6f6f6f;
+  --slot: #7a7a7a;
+  --ok: #81c784;
+  --token: #ffd54f;
+  --token-bg: #3a2f00;
+  --hl: #3d3d00;
+  --ba: #64b5f6;
+  --po: #ce93d8;
+  --qa: #ffb74d;
+  --lead: #4dd0e1;
+  --dev: #81c784;
+  --contractor: #f48fb1;
+  --dialogue-bg: #141a33;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Courier New', Consolas, monospace;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.viewport {
+  /* 16:9, as large as fits while leaving room for the status panel */
+  width: min(96vw, calc((100vh - 170px) * 16 / 9));
+  aspect-ratio: 16 / 9;
+  background: var(--bg);
+  border: 3px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.screen {
+  margin: 0;
+  line-height: 1;
+  white-space: pre;
+  color: var(--fg);
+}
+
+/* QA cutscene: red error waves (both themes) */
+.wave {
+  color: var(--error);
+  font-weight: bold;
+}
+
+/* Lead cutscene: blue wave of meetings / passing time */
+.wave-time {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.status {
+  width: min(96vw, calc((100vh - 170px) * 16 / 9));
+  height: 140px;
+  box-sizing: border-box;
+  border: 3px solid var(--border);
+  padding: 6px 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px 12px;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.status h4 {
+  margin: 0 0 4px;
+  color: var(--border);
+}
+
+.status .dialogue {
+  grid-column: 1 / -1;
+  border: 2px dashed var(--border);
+  background: var(--dialogue-bg);
+  padding: 4px 10px;
+  font-size: 16px;
+}
+
+.status .dialogue.active {
+  border-style: solid;
+  box-shadow: 0 0 0 2px var(--border);
+}
+
+.status .dialogue h4 {
+  display: inline;
+  margin-right: 8px;
+}
+
+/* Colour classes used on the ASCII screen and in dialogue */
+.c-wall { color: var(--wall); }
+.c-slot { color: var(--slot); }
+.c-ok { color: var(--ok); font-weight: bold; }
+.c-token { color: var(--token); background: var(--token-bg); font-weight: bold; }
+.c-action { background: var(--hl); font-weight: bold; }
+.c-logs { color: var(--token); background: var(--hl); font-weight: bold; }
+.c-error { color: var(--error); font-weight: bold; }
+.c-near { color: #d4a017; font-weight: bold; }
+.c-ba { color: var(--ba); font-weight: bold; }
+.c-po { color: var(--po); font-weight: bold; }
+.c-qa { color: var(--qa); font-weight: bold; }
+.c-lead { color: var(--lead); font-weight: bold; }
+.c-dev { color: var(--dev); font-weight: bold; }
+.c-other { opacity: 0.6; font-weight: bold; }
+.c-contractor { color: var(--contractor); font-weight: bold; }
+
+.theme-toggle {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  font-family: inherit;
+  font-size: 13px;
+  background: var(--bg);
+  color: var(--fg);
+  border: 2px solid var(--fg);
+  padding: 4px 10px;
+  cursor: pointer;
+}
